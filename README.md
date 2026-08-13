@@ -244,7 +244,7 @@ The route tables are associated with their respective subnets using Terraform ro
 
 ---
 
-# 🔗 VPC Peering
+#  VPC Peering
 
 The main purpose of this project is to establish private communication between the two VPCs.
 
@@ -268,7 +268,7 @@ Traffic between the VPCs does not need to travel through the public internet.
 
 ---
 
-# 🛣️ Routing Through the Peering Connection
+#  Routing Through the Peering Connection
 
 Creating a VPC peering connection alone is not enough.
 
@@ -356,7 +356,7 @@ The Security Groups use VPC CIDR ranges to restrict internal communication rathe
 
 ---
 
-# 💻 EC2 Instances
+#  EC2 Instances
 
 One EC2 instance is deployed in each VPC.
 
